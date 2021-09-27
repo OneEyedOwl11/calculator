@@ -1,6 +1,41 @@
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: red;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+}
+
+.display {
+    width: 350px;
+    height: 70px;
+    background-color: rgb(204, 203, 203);
+}
+
+.numbers, .function {
+    width: 80px;
+    height: 40px;
+}
+
+.two-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-and-func {
+    display: flex;
+    justify-content: space-between;
+}
+
+.function-container {
+    width: 140;
 }
