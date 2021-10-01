@@ -11,12 +11,12 @@
     <div>
         <div class="container">
             <div class="display">
-                <div class="prev-number"></div>
-                <div class="current-number"></div>
+                <div class="prev-number" id="prev-number"></div>
+                <div class="current-number" id="current-number"></div>
             </div>
             <div class="all-buttons">
                 <div class="two-buttons">
-                    <button class="clear">CLEAR</button>
+                    <button class="clear" id="clear">CLEAR</button>
                     <button class="delete">DELETE</button>
                 </div>
             <div class="num-and-func">
@@ -32,17 +32,18 @@
                     <button class="numbers" value="3">3</button>
                     <button class="numbers" value=".">.</button>
                     <button class="numbers" value="0">0</button>
-                    <button class="numbers" value="=">=</button>
+                    <button class="numbers" id="equals" value="=">=</button>
                 </div>
-                <div class="function-container">
-                    <button class="function" value="+">+</button>
-                    <button class="function" value="-">-</button>
-                    <button class="function" value="*">*</button>
-                    <button class="function" value="/">/</button>
+                <div class="operator-container">
+                    <button class="operator" value="+">+</button>
+                    <button class="operator" value="-">-</button>
+                    <button class="operator" value="*">*</button>
+                    <button class="operator" value="/">/</button>
                 </div>
             </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
