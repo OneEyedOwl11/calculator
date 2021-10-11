@@ -21,7 +21,7 @@ body {
     background-color: rgb(204, 203, 203);
 }
 
-.numbers, .operator {
+.numbers, .operator, .equals {
     width: 80px;
     height: 40px;
 }
@@ -68,5 +68,9 @@ body {
 }
 
 .two-buttons {
-    padding: 15px 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
